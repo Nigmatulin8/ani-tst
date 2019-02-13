@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animation</title>
+	<link rel="stylesheet" type="text/css" href="./AniCSS.css" />
+
+</head>
+<body>
+<header>
+	<a href = 'javascript: document.location.href = "../main.html";' title="WebSite">
+		<span class="move">Animations</span>
+	</a>
+
+	<div class="drop"> Main
+		<ul class="dropMenu">
+			<li> <a href="#">First </a> </li>
+		</ul>
+		<ul class="dropMenu">
+			<li> <a href="#">Second </a> </li>
+		</ul>
+		<ul class="dropMenu">
+			<li> <a href="#">Third </a> </li>
+		</ul>
+		<ul class="dropMenu">
+			<li> <a href="#">Fourth </a> </li>
+		</ul>
+		<ul class="dropMenu">
+			<li> <a href="#">Fifth</a> </li>
+		</ul>
+		<ul class="dropMenu">
+			<li> <a href="#">Sixth </a> </li>
+		</ul>
+	</div>
+
+	<div class="drop" style="margin-left:  400px;"> Main
+		<ul class="dropMenu">
+			<li> <a href="#">First </a> </li>
+		</ul>
+		<ul class="dropMenu">
+			<li> <a href="#">Second </a> </li>
+		</ul>
+		<ul class="dropMenu">
+			<li> <a href="#">Third </a> </li>
+		</ul>
+		<ul class="dropMenu">
+			<li> <a href="#">Fourth </a> </li>
+		</ul>
+		<ul class="dropMenu">
+			<li> <a href="#">Fifth</a> </li>
+		</ul>
+		<ul class="dropMenu">
+			<li> <a href="#">Sixth </a> </li>
+		</ul>
+	</div>
+
+	<div class="drop" style="margin-left:  550px;"> Main
+		<ul class="dropMenu">
+			<li> <a href="#">First </a> </li>
+		</ul>
+		<ul class="dropMenu">
+			<li> <a href="#">Second </a> </li>
+		</ul>
+		<ul class="dropMenu">
+			<li> <a href="#">Third </a> </li>
+		</ul>
+		<ul class="dropMenu">
+			<li> <a href="#">Fourth </a> </li>
+		</ul>
+		<ul class="dropMenu">
+			<li> <a href="#">Fifth</a> </li>
+		</ul>
+		<ul class="dropMenu">
+			<li> <a href="#">Sixth </a> </li>
+		</ul>
+	</div>
+
+
+</header>
+<div id="fix">
+	<nav>
+		<div>
+			<a href = 'javascript: document.location.href = "../main.html";' class="zero">Main Page</a>
+		</div>
+		<div>
+			<a href = 'javascript: document.location.href = "canvas.html";' class="zero">Canvas</a>
+		</div>
+		<div>
+			<a href = 'javascript: document.location.href = "video&audio.html";' class="zero">Video</a>
+		</div>
+		<div>
+			<a href = 'javascript: document.location.href = "news.html";' class="zero">News</a>
+		</div>
+		<div>
+			<a href = 'javascript: document.location.href = "forms.html";' class="zero">Forms</a>
+		</div>
+		<div>
+			<a href = 'javascript: document.location.href = "aquatic.html";' class="zero">Aquatic</a>
+		</div>
+		<div>
+			<a href = 'javascript: document.location.href = "website1.html";' class="zero">Starbuzz</a>
+		</div>
+		<div>
+			<a href = 'javascript: document.location.href = "page3.html";' class="zero">Div Tags</a>
+		</div>
+		<div>
+			<a href = 'javascript: document.location.href = "meta.html";' class="zero">Meta Tags</a>
+		</div>
+		<div>
+			<a href = 'javascript: document.location.href = "Page2.html";' class="zero">World Map</a>
+		</div>
+		<div>
+			<a href = 'javascript: document.location.href = "tables.html";' class="zero">Tables</a>
+		</div>
+		<div>
+			<a href = 'javascript: document.location.href = "somecss.html";' class="zero">More CSS</a>
+		</div>
+	</nav>
+<section>
+	<h1> The first square animation</h1>
+
+	<script type="text/javascript">
+	function aniStart()
+	{
+		document.getElementById("startAnim").onclick = function ()
+		{
+			 document.getElementById("div1").style.marginLeft = "93.5%";
+			 document.getElementById("div1").style.background = "red";
+		}
+	}
+	window.addEventListener("load", aniStart, true);
+	</script>
+	<div class="animationSection">
+		<div id="div1"> </div>
+		<input type="button" id="startAnim" value="Start Animation" />
+	</div>
+	<h1> Automatic animation</h1>
+	<div class="animationSectionTwo">
+		<div id="div2"> </div>
+
+	</div>
+
+	<h1> Automatic linear animation</h1>
+	<div class="animationSection">
+		<div class="div3"> </div>
+
+	</div>
+
+
+
+</section>
+</div>
+</body>
+</html>
